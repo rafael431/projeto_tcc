@@ -1,0 +1,52 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - hello_world
+  - verify_news
+  - thank_you
+
+responses:
+  utter_greet:
+  - text: "Hey,{name}! Welcome to this Chatbot. We are pleased to help you to verify if a information related to Covid-19 is real or fake. Would you like to submit a information?"
+  
+  utter_enter_information:
+  - text: "Please submit the information you would like to verify."
+
+  utter_classifier_result:
+  - text: "Here it is the result: {classification_result}" 
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+
+
+entities:
+  - name
+  - destination
+
+slots:
+  name:
+    type: text
+    influence_conversation: false
+  classification_result:
+    type: any
+    influence_conversation: false
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+actions:
+- action_hello_world
+- action_classifier
