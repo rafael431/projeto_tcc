@@ -1,4 +1,4 @@
-# Trabalho de Conclusão de Curso 
+# TCC - Rafael Tenório Cursino - UNICAP 
 
 Detectando Fake-news: um chatbot para verificação de informações relacionadas ao Covid-19.
 
