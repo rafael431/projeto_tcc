@@ -11,6 +11,7 @@ intents:
   - hello_world
   - verify_news
   - thank_you
+  - inform
 
 responses:
   utter_greet:
@@ -19,6 +20,9 @@ responses:
   utter_enter_information:
   - text: "Please submit the information you would like to verify."
 
+  utter_confirm_verification:
+  - text: "Do you want to continue with the verification?"
+ 
   utter_classifier_result:
   - text: "Here it is the result: {classification_result}" 
 
@@ -42,6 +46,9 @@ slots:
   classification_result:
     type: any
     influence_conversation: false
+  information:
+    type: text
+    influence_conversation: false
 
 session_config:
   session_expiration_time: 60
@@ -50,3 +57,8 @@ session_config:
 actions:
 - action_hello_world
 - action_classifier
+
+#forms:
+#  information:
+#    type: text
+#    influence_conversation: false

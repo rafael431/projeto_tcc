@@ -103,7 +103,7 @@ nlu:
     - I would like to verify this information
     - Is this news true?
     - Are this real or fake?
-    - I'd like to check if a new is real.
+    - I'd like to check if a new is real
     - Verify this information
     - Check for veracity
 
@@ -137,3 +137,29 @@ nlu:
     - thank you bye
     - um okay thank you good bye
     - cool thanks
+
+- intent: inform
+  examples: |
+    - 26 idosos que tomaram vacina contra Covid-19 no Reino Unido morreram
+    - Chineses não usam máscaras em reunião no Instituto Butantan, no Brasil
+    - Doria vai gastar R$ 22 bilhões com a vacina da China para imunizar São Paulo 
+    - Peru suspendeu testes com a Coronavac após vacina causar paralisia nas pernas de voluntários 
+    - Torre Eiffel, iluminada pela empresa Ximénez, faz homenagem a vítimas da Covid-19 
+    - Maior infectologista do Brasil alerta para pressa, doses e efeitos colaterais da vacina chinesa 
+    - Sinovac pagou propina para Doria trazer vacina ao Brasil, diz Washington Post 
+    - Governador Paulo Câmara anunciou lockdown em Pernambuco 
+    - Vírus da Covid-19 tem vibração de 5,5 hz e morre acima de 25,5 hz 
+    - Vacina da China e de Oxford são feita com DNA recombinante e não deram certo em porcos 
+    - Alemanha não obedeceu OMS e descobriu bactéria do coronavírus 
+    - Ken Frazier, da Merck, diz que pressa para vacinar é por causa do carnaval no Brasil 
+    - Data de fabricação da vacina chinesa (abril) revela plano da China 
+    - Puxado por EUA, mundo tem recorde de mortes por Covid
+    - Ex-presidente da Bolívia, Evo Morales é diagnosticado com coronavírus
+    - EUA passam a exigir testes negativos de coronavírus para entrada no país
+    - Três congressistas testam positivo para Covid-19 após invasão ao Capitólio
+    - Vacina contra a Covid-19: veja perguntas e respostas
+    - Com potencial de eliminar casos graves, CoronaVac é adequada para combater pandemia, dizem especialistas
+    - Média móvel de casos de Covid volta a bater recorde no Brasil; nenhum estado apresenta queda nas mortes há 5 dias
+    - Vacina contra Covid-19: veja documentos necessários para se imunizar
+    - Taxa de transmissão da Covid-19 sobe para 1,21 no Brasil, aponta Imperial College
+    - Imunidade de rebanho: por que a OMS descarta alcançar imunidade coletiva contra Covid-19 em 2021, mesmo com vacinas

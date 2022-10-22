@@ -48,3 +48,4 @@ class FakeNewsClassifier(Action):
 
         #Insert classifier logic.
         return [SlotSet("classification_result", "true")]
+
