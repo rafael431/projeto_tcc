@@ -15,7 +15,7 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey,{name}! Welcome to this Chatbot. We are pleased to help you verify if an information related to Covid-19 is real or fake. Would you like to submit a information?"
+  - text: "Hello, user!! Welcome to this Chatbot. We are pleased to help you verify if an information related to Covid-19 is real or fake. Would you like to submit a information?"
   
   utter_enter_information:
   - text: "Please submit the information you would like to verify."
@@ -24,7 +24,10 @@ responses:
   - text: "Do you want to continue with the verification?"
  
   utter_classifier_result:
-  - text: "Here it is the result: {classification_result}" 
+  - text: "Here it is the result: your information has a chance of {classification_result}% of being a fake news." 
+
+  utter_start_again:
+  - text: "To submit another information, please type Hi. Or if you want to leave, just type bye."
 
   utter_goodbye:
   - text: "Bye"

@@ -11,6 +11,7 @@ stories:
   - intent: inform
   - action: action_classifier
   - action: utter_classifier_result
+  - action: utter_start_again
   - intent: thank_you
   - action: utter_goodbye
 
