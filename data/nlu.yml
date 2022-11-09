@@ -4,6 +4,7 @@ nlu:
 - intent: greet
   examples: |
    - olá
+   - Oi
    - oi
    - bom dia
    - boa tarde
