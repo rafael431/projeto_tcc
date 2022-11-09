@@ -15,25 +15,25 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hello, user!! Welcome to this Chatbot. We are pleased to help you verify if an information related to Covid-19 is real or fake. Would you like to submit a information?"
-  
+  - text: "Olá! Seja bem vindo. Nós temos o prazer de te ajudar a verificar se uma informação relacionado ao Covid-19 é real ou fake. Você gostaria de submeter uma informação?"
+    
   utter_enter_information:
-  - text: "Please submit the information you would like to verify."
+  - text: "Por favor, digite a informação que você gostaria de verificar:"
 
   utter_confirm_verification:
-  - text: "Do you want to continue with the verification?"
+  - text: "Você gostaria de continuar com a verificação?"
  
   utter_classifier_result:
-  - text: "Here it is the result: your information has a chance of {classification_result}% of being a fake news." 
+  - text: "Aqui está o seu resultado: sua informação tem {classification_result}% de chance de ser uma fake news." 
 
   utter_start_again:
-  - text: "To submit another information, please type Hi. Or if you want to leave, just type bye."
+  - text: "Para submeter uma nova informação, por favor digite 'Oi'. Caso queria sair, escreva 'tchau'."
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Tchau"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Eu sou um bot, powered by Rasa."
 
 
 

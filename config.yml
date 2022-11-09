@@ -1,9 +1,9 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
-language: en
+language: pt
 
 pipeline:
-# # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
+ # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
 #   - name: WhitespaceTokenizer
@@ -24,6 +24,12 @@ pipeline:
 #   - name: FallbackClassifier
 #     threshold: 0.3
 #     ambiguity_threshold: 0.1
+  - name: "SpacyNLP"
+    model: "pt_core_news_md"
+  - name: "SpacyTokenizer"
+  - name: "SpacyFeaturizer"
+    "pooling": "mean"
+  - name: "DIETClassifier"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
